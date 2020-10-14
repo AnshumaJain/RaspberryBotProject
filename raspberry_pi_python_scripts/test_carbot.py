@@ -41,6 +41,49 @@ class TestCarBot(unittest.TestCase):
         expected_result = None
         self.assertEqual(result, expected_result)
 
+    def test_key_controller_with_wrong_string(self):
+        print("testing key_controller()...")
+        key_press = "R"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+    def test_key_controller_with_keypress_w(self):
+        print("testing key_controller()...")
+        key_press = "w"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+    def test_key_controller_with_keypress_z(self):
+        print("testing key_controller()...")
+        key_press = "z"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+    def test_key_controller_with_keypress_a(self):
+        print("testing key_controller()...")
+        key_press = "a"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+    def test_key_controller_with_keypress_s(self):
+        print("testing key_controller()...")
+        key_press = "s"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+    def test_key_controller_with_keypress_q(self):
+        print("testing key_controller()...")
+        key_press = "q"
+        result = self.carbot.key_controller(key_press)
+        expected_result = None
+        self.assertEqual(result, expected_result)
+
+
 
 if __name__ == "__main__":
     unittest.main()
