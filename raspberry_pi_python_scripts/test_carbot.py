@@ -2,8 +2,8 @@ import sys
 import mock
 import unittest
 
-sys.modules['RPi.GPIO'] = mock.MagicMock()
 sys.modules['RPi'] = mock.MagicMock()
+sys.modules['RPi.GPIO'] = mock.MagicMock()
 
 from carbot import CarBot
 
